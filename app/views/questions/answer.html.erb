@@ -1,0 +1,25 @@
+<div class="container">
+<h1>Stupid Coaching</h1>
+
+  <div class="card">
+    <div class="grey-box"></div>
+    <div class="text">
+      <p><%= @question %></p>
+      <p style="font-style: italic">- You</p>
+    </div>
+  </div>
+<br>
+<br>
+  <div class="card answer">
+    <div class="grey-box"></div>
+    <div class="text">
+      <p><%= @answer %></p>
+      <p style="font-style: italic">- Your coach</p>
+    </div>
+  </div>
+<br>
+<br>
+</div>
+<%= link_to "Ask another question", ask_path %>
+
+
